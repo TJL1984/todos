@@ -1,15 +1,14 @@
-
 (function() {
-  window.todo = window.todo;
-} // new variable on the window thats defining itself.
+  window.todos = window.todos;
+  // new variable on the window thats defining itself.
+  console.log("iffe has executed");
 
-function addToDo(text) {
-  var article = document.createElement('article');
+    function addToDos(text) {
+    console.log("addToDos has executed");
 
-  var
+  
 
-
-
-
-
-}() );
+    document
+      .querySelector('.addToDo')
+  }
+})();
